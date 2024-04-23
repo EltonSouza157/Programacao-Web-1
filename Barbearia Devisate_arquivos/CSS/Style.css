@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    background-color: var(--colorbackground);
+    background-color: var(--corbackground);
     padding: 20px 0;
 }
 

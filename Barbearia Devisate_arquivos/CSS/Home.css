@@ -1,6 +1,7 @@
 :root{
   --corbackprincipal: #FEFEFE;
   --corbackbeneficios: #888888;
+  --corimbeneficios: #000000;
 }
 
 .principal{
@@ -37,6 +38,7 @@
 
 .Mapa p{
   margin: 0 0 2em;
+  text-align: center;
 }
 
 .video{
@@ -62,7 +64,7 @@ content:"🧔🏽";
 
 .beneficios{
   padding: 3em 0;
-  background: #888888;
+  background: var(--corbackbeneficios);
   font-size: 25px;
 }
 
@@ -73,7 +75,7 @@ content:"🧔🏽";
 }
 
 .conteudo-beneficios{
-  width: 640px;
+  width: 740px;
   margin: 0 auto;
 }
 
@@ -94,10 +96,10 @@ content:"🧔🏽";
  }
 
  .imagem-beneficios{
-   width: 60%;
+   width: 50%;
    opacity: 1;
    transition: 400ms;
-   box-shadow: 10px 10px 10px 0 var(--corbackbeneficios);
+   box-shadow: 10px 10px 10px 0 var(--corimbeneficios);
  }
 
  .imagem-beneficios:hover{
